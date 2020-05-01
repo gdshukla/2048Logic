@@ -14,11 +14,14 @@ Grid can be printed on console by using
 And score can be retrieved by using
   grid.getScore();
 
-File structure:
-C2048.cpp/C2048.h: Contain base logic of of 2048 grid
+#File structure:
+#C2048.cpp, C2048.h: 
+  Contains base logic of of 2048 grid
 
-2048Logic.cpp: main file that calls different member functions of C2048 class from main()
+##2048Logic.cpp: 
+  main file that calls different member functions of C2048 class from main()
 
-Utility.cpp/Utility.h: Contain platform dependent utiity functions namely - 
-  gotoxy(): to move cursor to desired x,y position
-  getTickCount(): gets tick count
+##Utility.cpp, Utility.h: 
+  Contains platform dependent utiity functions namely - 
+    gotoxy(): to move cursor to desired x,y position
+    getTickCount(): gets tick count
