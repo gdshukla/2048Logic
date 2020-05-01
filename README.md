@@ -9,7 +9,7 @@ To add new value (2 or 4, generated at random) into grid at random place
 
     grid.addNewValue();
 
-Movement is done by keus w,a,s,d for up, left, down and right respectively
+Movement is done by keys w,a,s,d for up, left, down and right respectively
 
 Grid can be printed on console by using
 
@@ -20,11 +20,11 @@ And score can be retrieved by using
     grid.getScore();
 
 # File structure:
-## C2048.cpp: 
+### C2048.cpp: 
   Contains base logic of of 2048 grid
 
-## 2048Logic.cpp: 
+### 2048Logic.cpp: 
   main file that calls different member functions of C2048 class from main()
 
-## Utility.cpp: 
+### Utility.cpp: 
   Contains platform dependent utility functions like gotoxy() & getTickCount()
